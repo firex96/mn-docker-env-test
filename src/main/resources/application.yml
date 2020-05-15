@@ -5,6 +5,16 @@ micronaut:
 
 ---
 micronaut:
+    router:
+        static-resources:
+            swagger:
+                paths:
+                - classpath:META-INF/swagger
+                - classpath:swagger
+                mapping: /swagger/**
+
+---
+micronaut:
   io:
     watch:
       paths: src/main
