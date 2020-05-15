@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: mn.docker.env.test
+---
+testFramework: spock
+sourceLanguage: groovy
